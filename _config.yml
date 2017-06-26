@@ -73,5 +73,5 @@ deploy:
   type: git
   repo: https://github.com/nighthary/nighthary.github.io.git
   branch: master
-  message: update website logo
+  message: 添加百度统计和阅读数量统计
 
