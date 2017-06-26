@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: bobo
-subtitle: This is a subtitle
+title: NightHary's Notes
+subtitle: Self Notes
 description:
 author: NightHary
 language: zh-Hans
@@ -26,6 +26,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - README.md
+
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -71,3 +73,5 @@ deploy:
   type: git
   repo: https://github.com/nighthary/nighthary.github.io.git
   branch: master
+  message: update website logo
+

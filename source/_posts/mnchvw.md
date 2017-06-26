@@ -1,24 +1,27 @@
 ---
 title: 手机如何不修改host访问需要修改host的网站
 date: 2017-06-26 13:55:13
-tags:
-author: NightHary
+toc: true
+tags: 
+    - 前端调试
 ---
 
-[TOC]
-
-## 手机不越狱/ROOT访问需要修改hosts的网站
+<!-- toc -->
 
 >需求来源:
 >   网站需要升级HTTPS,但是最开始只开放单节点进行测试(通过修改hosts来访问),但是iPhone不越狱(Android不ROOT)的时候是没办法修改hosts的,但是大家都不愿意把爱机随随便便的越狱,所以就有了在不越狱的前提下怎么进行测试
 
-### 1.准备工具
+<!--more-->
+
+# 准备工具
 
     电脑一台(Mac/PC均可以) 
     JAVA开发环境(jdk)
     Charles代理软件(Mac/PC均有此软件)
 
-### 2.设置代理
+
+
+# 设置代理
 
 主要原理:
 
