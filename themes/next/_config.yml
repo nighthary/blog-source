@@ -294,8 +294,8 @@ baidu_analytics: 18dc58d0e18de56c64540bb81c8f88ba
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: https-nighthary-github-io
   count: true
 
 # Hypercomments
