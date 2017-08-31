@@ -8,11 +8,12 @@ categories:
     - 技术杂谈
 ---
 
-[TOC]
-
 >说明：1.本文使用的是未压缩过的kindeditor.all.js
 >
 >​    2.版本为4.1.11
+
+[官网地址](http://kindeditor.net/doc.php)
+
 
 <!-- more -->
 
