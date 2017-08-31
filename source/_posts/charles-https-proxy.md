@@ -4,6 +4,8 @@ date: 2017-06-26 16:50:03
 toc: true
 tags:
     - 前端调试
+categories:
+    - 技术杂谈
 ---
 
 # 工作环境
