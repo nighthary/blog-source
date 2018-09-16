@@ -3,14 +3,14 @@ title: 自定义Kindeditor的图片上传组件（自定义图片上传逻辑）
 date: 2017-08-31 21:39:35
 toc: true
 tags:
-    - 前端组件
+	- Kindeditor
 categories:
-    - 技术杂谈
+    - 前端
 ---
 
 >说明：1.本文使用的是未压缩过的kindeditor.all.js
 >
->​    2.版本为4.1.11
+>    2.版本为4.1.11
 
 [官网地址](http://kindeditor.net/doc.php)
 

@@ -3,7 +3,8 @@ title: 手机如何不修改host访问需要修改host的网站
 date: 2017-06-26 13:55:13
 toc: true
 tags: 
-    - 前端调试
+	- 工具
+	- Host
 categories:
     - 技术杂谈
 ---
@@ -30,7 +31,7 @@ categories:
     电脑修改hosts.
     手机和电脑保证在同一个局域网,手机设置代理(在连接WIFI的详情里面有代理设置的位置,Android&IOS均可以),通过Charles将网络请求转发到本地电脑上.
     简单的说就是,手机的所有网络请求都通过电脑来访问,而电脑是修改了host的.
-    
+
 具体步骤:
 
 *   1.安装Charles
@@ -44,15 +45,14 @@ categories:
         
         MAC: /etc/hosts
         WINDOW:c:/windows/system32/drivers/etc/hosts
-    
+  
     编辑hosts文件,添加需要修改的hosts地址
-        
-*   3.手机连接WIFI,设置代理
+  
+* 3.手机连接WIFI,设置代理
 
         1.手机进入WIFI连接界面,连接成功之后进入连接详情
         2.底部有HTTP代理设置,选择手动方式,输入电脑的IP地址(ipconfig/ifconfig-查看ip地址),输入端口号(这个端口可以在Charles中设置,默认是8888)
 
-        
 *   测试连接
 
     手机打开需要访问的地址,查看charles中是否拦截到了网络请求,如果拦截到了,应该就可以正常访问

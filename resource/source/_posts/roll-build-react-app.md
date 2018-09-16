@@ -3,21 +3,21 @@ title: rollup-build-react-app
 date: 2018-01-07 20:16:53
 toc: true
 tags: 
-	-React 
-	-Rollup
+	- React 
+	- Rollup
 categories:
-	-前端
+	- 前端
 ---
 
 ## 用Rollup打包React项目
 
 #### 什么是rollup?
 
-​	这是[rollup官网](https://rollupjs.org/zh#introduction)给出的描述
+这是[rollup官网](https://rollupjs.org/zh#introduction)给出的描述
 
 >Rollup 是一个 JavaScript 模块打包器，可以将小块代码编译成大块复杂的代码，例如 library 或应用程序
 
-​	简单的说， rollup就是一个js的打包器，它的优势在于可以通过``Tree-shaking``去掉多余的不需要的代码（webpack 2.x也实现了  Tree-shaking）
+简单的说， rollup就是一个js的打包器，它的优势在于可以通过``Tree-shaking``去掉多余的不需要的代码（webpack 2.x也实现了  Tree-shaking）
 
 <!-- more -->
 
@@ -146,7 +146,7 @@ categories:
 
 * 问题一
 
-  ![](http://bobo-img.oss-cn-beijing.aliyuncs.com/blog/image/error01.png)
+  ![](http://p0e4g8akn.bkt.clouddn.com/error01.png)
 
   需要通过``babel``进行编译
 
@@ -180,7 +180,7 @@ categories:
 
 * 问题二
 
-  ![02](https://bobo-img.oss-cn-beijing.aliyuncs.com/blog/image/error02.png)
+  ![02](http://p0e4g8akn.bkt.clouddn.com/error02.png)
 
   这个问题是由于部分模块没有直接``exports``引入的内容导致的，需要添加``commonjs``插件进行编译
 
@@ -205,7 +205,7 @@ categories:
 
 * 问题三
 
-![3](https://bobo-img.oss-cn-beijing.aliyuncs.com/blog/image/error03.png)
+![3](http://p0e4g8akn.bkt.clouddn.com/error03.png)
 
 这个问题和问题二差不多，需要为没有export的模块添加别名即可，这相关知识可以参考[rollup官网-模块导出](https://rollupjs.org/zh#-exporting-)
 
@@ -238,7 +238,7 @@ commonjs({
 
 *  问题四
 
-![4](https://bobo-img.oss-cn-beijing.aliyuncs.com/blog/image/error04.png)
+![4](http://p0e4g8akn.bkt.clouddn.com/error04.png)
 
  这里给出错误位置的代码，可以发现是``jsx``语法问题
 
@@ -267,7 +267,7 @@ npm i babel-preset-react --save-dev
 
 * 问题五
 
-![5](http://bobo-img.oss-cn-beijing.aliyuncs.com/blog/image/error05.png)
+![5](http://p0e4g8akn.bkt.clouddn.com/error05.png)
 
 给出出现错误的代码
 
